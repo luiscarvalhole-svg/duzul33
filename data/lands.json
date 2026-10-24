@@ -1,0 +1,11 @@
+[
+ {"id":"inicial","nome":"Quintal Inicial","tipo":"campo","rect":[40,30,16,14],"preco":0,"req":{},"desc":"Sua propriedade inicial, com a casa."},
+ {"id":"norte","nome":"Campos do Norte","tipo":"campo","rect":[40,20,16,10],"preco":800,"req":{"agricultura":1},"desc":"Terra fértil para novas plantações. Expansão ao norte."},
+ {"id":"oeste","nome":"Pastagem Oeste","tipo":"pasto","rect":[28,30,12,14],"preco":1200,"req":{"pecuaria":0,"agricultura":1},"desc":"Capim aberto, bom para currais. Expansão a oeste."},
+ {"id":"leste","nome":"Campos do Leste","tipo":"campo","rect":[56,30,8,14],"preco":1500,"req":{"agricultura":2},"desc":"Mais campos agrícolas. Expansão a leste."},
+ {"id":"floresta","nome":"Floresta Noroeste","tipo":"floresta","rect":[28,20,12,10],"preco":1000,"req":{"coleta":1},"desc":"Muita madeira, mas precisa de limpeza."},
+ {"id":"rochoso","nome":"Terreno Rochoso","tipo":"rochoso","rect":[56,20,8,10],"preco":1800,"req":{"coleta":2},"desc":"Cheio de pedras. Ótimo para quem precisa de material."},
+ {"id":"lago","nome":"Margem do Lago","tipo":"agua","rect":[28,47,12,10],"preco":2000,"req":{"agricultura":2},"desc":"Terreno com lagoa. Expansão ao sul."},
+ {"id":"pomar","nome":"Pomar Sul","tipo":"campo","rect":[40,47,16,10],"preco":2500,"req":{"agricultura":4},"desc":"Grande área plana ao sul da estrada."},
+ {"id":"vale","nome":"Vale Secreto","tipo":"especial","rect":[56,47,8,10],"preco":5000,"req":{"agricultura":6,"coleta":3},"dia":28,"desc":"Terreno raro e especial, escondido atrás das árvores."}
+]

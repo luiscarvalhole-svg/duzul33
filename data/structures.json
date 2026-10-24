@@ -1,0 +1,608 @@
+{
+ "casa": {
+  "nome": "Casa",
+  "w": 5,
+  "h": 4,
+  "camada": "objeto",
+  "bloqueia": true,
+  "guardavel": false,
+  "interage": "casa",
+  "stack": 1,
+  "cor": [
+   220,
+   200,
+   160
+  ],
+  "desc": "Sua casa. Durma aqui para passar o dia."
+ },
+ "galinheiro": {
+  "nome": "Galinheiro",
+  "w": 4,
+  "h": 4,
+  "camada": "objeto",
+  "bloqueia": true,
+  "guardavel": true,
+  "interage": "animais",
+  "capacidade": 6,
+  "aceita": [
+   "galinha",
+   "pato"
+  ],
+  "curral": [
+   0,
+   2,
+   4,
+   2
+  ],
+  "feed_max": 30,
+  "custo": {
+   "dinheiro": 450,
+   "materiais": {
+    "madeira": 30,
+    "pedra": 10
+   }
+  },
+  "loja": "carpintaria",
+  "stack": 1,
+  "cor": [
+   190,
+   90,
+   60
+  ],
+  "desc": "Abriga até 6 aves."
+ },
+ "celeiro": {
+  "nome": "Celeiro",
+  "w": 6,
+  "h": 5,
+  "camada": "objeto",
+  "bloqueia": true,
+  "guardavel": true,
+  "interage": "animais",
+  "capacidade": 6,
+  "aceita": [
+   "vaca",
+   "cabra",
+   "ovelha",
+   "porco"
+  ],
+  "curral": [
+   0,
+   3,
+   6,
+   2
+  ],
+  "feed_max": 40,
+  "custo": {
+   "dinheiro": 1200,
+   "materiais": {
+    "madeira": 60,
+    "pedra": 30
+   }
+  },
+  "loja": "carpintaria",
+  "stack": 1,
+  "cor": [
+   180,
+   50,
+   40
+  ],
+  "desc": "Abriga até 6 animais de fazenda."
+ },
+ "coelheira": {
+  "nome": "Coelheira",
+  "w": 4,
+  "h": 3,
+  "camada": "objeto",
+  "bloqueia": true,
+  "guardavel": true,
+  "interage": "animais",
+  "capacidade": 4,
+  "aceita": [
+   "coelho"
+  ],
+  "curral": [
+   0,
+   1,
+   4,
+   2
+  ],
+  "feed_max": 20,
+  "custo": {
+   "dinheiro": 600,
+   "materiais": {
+    "madeira": 25
+   }
+  },
+  "loja": "carpintaria",
+  "stack": 1,
+  "cor": [
+   170,
+   130,
+   90
+  ],
+  "desc": "Abriga até 4 coelhos."
+ },
+ "cerca": {
+  "nome": "Cerca",
+  "w": 1,
+  "h": 1,
+  "camada": "objeto",
+  "bloqueia": true,
+  "guardavel": true,
+  "conecta": true,
+  "custo": {
+   "dinheiro": 8,
+   "materiais": {
+    "madeira": 1
+   }
+  },
+  "loja": "carpintaria",
+  "stack": 99,
+  "cor": [
+   160,
+   118,
+   70
+  ],
+  "desc": "Cerca que se conecta às vizinhas."
+ },
+ "portao": {
+  "nome": "Portão",
+  "w": 1,
+  "h": 1,
+  "camada": "objeto",
+  "bloqueia": true,
+  "guardavel": true,
+  "conecta": true,
+  "interage": "portao",
+  "custo": {
+   "dinheiro": 30,
+   "materiais": {
+    "madeira": 3
+   }
+  },
+  "loja": "carpintaria",
+  "stack": 20,
+  "cor": [
+   140,
+   100,
+   60
+  ],
+  "desc": "Aberto deixa passar. Aperte E perto para abrir ou fechar."
+ },
+ "caminho_terra": {
+  "nome": "Caminho de Terra",
+  "w": 1,
+  "h": 1,
+  "camada": "chao",
+  "bloqueia": false,
+  "guardavel": true,
+  "custo": {
+   "dinheiro": 2
+  },
+  "loja": "carpintaria",
+  "stack": 99,
+  "cor": [
+   170,
+   130,
+   90
+  ],
+  "desc": "Piso de terra batida."
+ },
+ "caminho_pedra": {
+  "nome": "Caminho de Pedra",
+  "w": 1,
+  "h": 1,
+  "camada": "chao",
+  "bloqueia": false,
+  "guardavel": true,
+  "custo": {
+   "dinheiro": 6,
+   "materiais": {
+    "pedra": 1
+   }
+  },
+  "loja": "carpintaria",
+  "stack": 99,
+  "cor": [
+   160,
+   160,
+   168
+  ],
+  "desc": "Piso de pedras."
+ },
+ "jardim": {
+  "nome": "Jardim de Flores",
+  "w": 2,
+  "h": 2,
+  "camada": "chao",
+  "bloqueia": false,
+  "guardavel": true,
+  "custo": {
+   "dinheiro": 40
+  },
+  "loja": "carpintaria",
+  "stack": 10,
+  "cor": [
+   240,
+   130,
+   170
+  ],
+  "desc": "Canteiro decorativo de flores."
+ },
+ "banco": {
+  "nome": "Banco",
+  "w": 2,
+  "h": 1,
+  "camada": "objeto",
+  "bloqueia": true,
+  "guardavel": true,
+  "rotacionavel": true,
+  "custo": {
+   "dinheiro": 60,
+   "materiais": {
+    "madeira": 5
+   }
+  },
+  "loja": "carpintaria",
+  "stack": 10,
+  "cor": [
+   150,
+   106,
+   64
+  ],
+  "desc": "Banco de madeira (gira com R)."
+ },
+ "lampada": {
+  "nome": "Lampião",
+  "w": 1,
+  "h": 1,
+  "camada": "objeto",
+  "bloqueia": true,
+  "guardavel": true,
+  "custo": {
+   "dinheiro": 45,
+   "materiais": {
+    "pedra": 2
+   }
+  },
+  "loja": "carpintaria",
+  "stack": 20,
+  "cor": [
+   255,
+   220,
+   120
+  ],
+  "desc": "Ilumina a fazenda à noite."
+ },
+ "espantalho": {
+  "nome": "Espantalho",
+  "w": 1,
+  "h": 2,
+  "camada": "objeto",
+  "bloqueia": true,
+  "guardavel": true,
+  "rotacionavel": true,
+  "custo": {
+   "dinheiro": 120,
+   "materiais": {
+    "madeira": 5
+   }
+  },
+  "loja": "carpintaria",
+  "stack": 5,
+  "cor": [
+   210,
+   170,
+   90
+  ],
+  "desc": "Decoração para os campos."
+ },
+ "vaso": {
+  "nome": "Vaso de Flor",
+  "w": 1,
+  "h": 1,
+  "camada": "objeto",
+  "bloqueia": true,
+  "guardavel": true,
+  "custo": {
+   "dinheiro": 25
+  },
+  "loja": "carpintaria",
+  "stack": 20,
+  "cor": [
+   200,
+   110,
+   80
+  ],
+  "desc": "Vaso decorativo."
+ },
+ "aspersor": {
+  "nome": "Aspersor",
+  "w": 1,
+  "h": 1,
+  "camada": "objeto",
+  "bloqueia": true,
+  "guardavel": true,
+  "irriga": 1,
+  "custo": {
+   "dinheiro": 180,
+   "materiais": {
+    "madeira": 5,
+    "pedra": 5
+   }
+  },
+  "loja": "carpintaria",
+  "stack": 20,
+  "cor": [
+   120,
+   170,
+   220
+  ],
+  "desc": "Rega sozinho os 8 blocos ao redor toda noite."
+ },
+ "aspersor_forte": {
+  "nome": "Aspersor Forte",
+  "w": 1,
+  "h": 1,
+  "camada": "objeto",
+  "bloqueia": true,
+  "guardavel": true,
+  "irriga": 2,
+  "custo": {
+   "dinheiro": 420,
+   "materiais": {
+    "madeira": 10,
+    "pedra": 15
+   }
+  },
+  "loja": "carpintaria",
+  "stack": 20,
+  "cor": [
+   80,
+   140,
+   220
+  ],
+  "desc": "Rega sozinho a área 5x5 ao redor toda noite."
+ },
+ "misturador": {
+  "nome": "Misturador de Ração",
+  "w": 2,
+  "h": 2,
+  "camada": "objeto",
+  "bloqueia": true,
+  "guardavel": true,
+  "interage": "racao",
+  "custo": {
+   "dinheiro": 300,
+   "materiais": {
+    "madeira": 15,
+    "pedra": 5
+   }
+  },
+  "loja": "carpintaria",
+  "stack": 2,
+  "cor": [
+   200,
+   160,
+   96
+  ],
+  "desc": "Fabrica ração específica para cada animal."
+ },
+ "quartinho": {
+  "nome": "Quartinho de Bagunça",
+  "w": 3,
+  "h": 3,
+  "camada": "objeto",
+  "bloqueia": true,
+  "guardavel": true,
+  "interage": "quartinho",
+  "custo": {
+   "dinheiro": 500,
+   "materiais": {
+    "madeira": 40,
+    "pedra": 10
+   }
+  },
+  "loja": "carpintaria",
+  "stack": 1,
+  "cor": [
+   150,
+   110,
+   80
+  ],
+  "desc": "Guarde o que não usa agora. Dá para pagar por mais espaço."
+ },
+ "torneira": {
+  "nome": "Torneira",
+  "w": 1,
+  "h": 1,
+  "camada": "objeto",
+  "bloqueia": true,
+  "guardavel": true,
+  "interage": "torneira",
+  "custo": {
+   "dinheiro": 120,
+   "materiais": {
+    "pedra": 3
+   }
+  },
+  "loja": "carpintaria",
+  "stack": 5,
+  "cor": [
+   150,
+   170,
+   200
+  ],
+  "desc": "Encha o regador aqui. Água ilimitada."
+ },
+ "tanque": {
+  "nome": "Tanque de Peixes",
+  "w": 3,
+  "h": 3,
+  "camada": "objeto",
+  "bloqueia": true,
+  "guardavel": true,
+  "interage": "tanque",
+  "custo": {
+   "dinheiro": 400,
+   "materiais": {
+    "madeira": 25,
+    "pedra": 20
+   }
+  },
+  "loja": "carpintaria",
+  "stack": 1,
+  "cor": [
+   70,
+   140,
+   200
+  ],
+  "desc": "Piscicultura: crie até 8 peixes com ração e venda os gordos na Peixaria."
+ },
+ "macieira": {
+  "nome": "Muda de Macieira",
+  "w": 1,
+  "h": 1,
+  "camada": "objeto",
+  "bloqueia": true,
+  "guardavel": true,
+  "interage": "fruteira",
+  "custo": {
+   "dinheiro": 300
+  },
+  "loja": "sementes",
+  "stack": 10,
+  "cor": [
+   210,
+   60,
+   60
+  ],
+  "fruta": "maca",
+  "estacoes": [
+   "outono"
+  ],
+  "dias_adulta": 7,
+  "rebrota": 2,
+  "desc": "Cresce em 7 dias. Dá maçãs no outono."
+ },
+ "laranjeira": {
+  "nome": "Muda de Laranjeira",
+  "w": 1,
+  "h": 1,
+  "camada": "objeto",
+  "bloqueia": true,
+  "guardavel": true,
+  "interage": "fruteira",
+  "custo": {
+   "dinheiro": 350
+  },
+  "loja": "sementes",
+  "stack": 10,
+  "cor": [
+   240,
+   160,
+   40
+  ],
+  "fruta": "laranja",
+  "estacoes": [
+   "verao"
+  ],
+  "dias_adulta": 7,
+  "rebrota": 2,
+  "desc": "Cresce em 7 dias. Dá laranjas no verão."
+ },
+ "pessegueiro": {
+  "nome": "Muda de Pessegueiro",
+  "w": 1,
+  "h": 1,
+  "camada": "objeto",
+  "bloqueia": true,
+  "guardavel": true,
+  "interage": "fruteira",
+  "custo": {
+   "dinheiro": 400
+  },
+  "loja": "sementes",
+  "stack": 10,
+  "cor": [
+   250,
+   170,
+   140
+  ],
+  "fruta": "pessego",
+  "estacoes": [
+   "primavera"
+  ],
+  "dias_adulta": 7,
+  "rebrota": 2,
+  "desc": "Cresce em 7 dias. Dá pêssegos na primavera."
+ },
+ "arvore_jovem": {
+  "nome": "Muda de Árvore",
+  "w": 1,
+  "h": 1,
+  "camada": "objeto",
+  "bloqueia": true,
+  "guardavel": true,
+  "custo": {
+   "dinheiro": 60
+  },
+  "loja": "sementes",
+  "stack": 20,
+  "cor": [
+   70,
+   140,
+   60
+  ],
+  "dias_adulta": 5,
+  "desc": "Vira uma árvore de verdade em 5 dias (rende madeira)."
+ },
+ "barraca": {
+  "nome": "Barraca de Vendas",
+  "w": 3,
+  "h": 2,
+  "camada": "objeto",
+  "bloqueia": true,
+  "guardavel": true,
+  "interage": "barraca",
+  "custo": {
+   "dinheiro": 350,
+   "materiais": {
+    "madeira": 20
+   }
+  },
+  "loja": "carpintaria",
+  "stack": 1,
+  "cor": [
+   200,
+   90,
+   80
+  ],
+  "desc": "Coloque produtos nas prateleiras. Moradores passam e compram durante o dia (+30% sobre o preço de loja)."
+ },
+ "forno": {
+  "nome": "Forno de Fundição",
+  "w": 2,
+  "h": 2,
+  "camada": "objeto",
+  "bloqueia": true,
+  "guardavel": true,
+  "interage": "forno",
+  "custo": {
+   "dinheiro": 600,
+   "materiais": {
+    "pedra": 30,
+    "madeira": 10
+   }
+  },
+  "loja": "carpintaria",
+  "stack": 1,
+  "cor": [
+   150,
+   150,
+   160
+  ],
+  "desc": "Funde minério e carvão em barras, com o tempo. O ajudante também sabe operá-lo."
+ }
+}

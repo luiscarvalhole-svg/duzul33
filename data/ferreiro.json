@@ -1,0 +1,43 @@
+{
+ "melhorias": [
+  {
+   "dinheiro": 300,
+   "materiais": {
+    "pedra": 15,
+    "madeira": 10
+   }
+  },
+  {
+   "dinheiro": 800,
+   "materiais": {
+    "barra_ferro": 4
+   }
+  },
+  {
+   "dinheiro": 2000,
+   "materiais": {
+    "barra_ouro": 4
+   }
+  }
+ ],
+ "fundicao": {
+  "barra_cobre": {
+   "minerio": "minerio_cobre",
+   "n": 2,
+   "carvao": 1,
+   "minutos": 30
+  },
+  "barra_ferro": {
+   "minerio": "minerio_ferro",
+   "n": 2,
+   "carvao": 1,
+   "minutos": 40
+  },
+  "barra_ouro": {
+   "minerio": "minerio_ouro",
+   "n": 2,
+   "carvao": 2,
+   "minutos": 60
+  }
+ }
+}

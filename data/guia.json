@@ -1,0 +1,321 @@
+[
+ {
+  "titulo": "Começando",
+  "linhas": [
+   "# O que é o jogo",
+   "Você cuida de uma fazenda: planta, colhe, cria animais, constrói, pesca, minera e negocia na vila. Cada dia dura cerca de 4,5 minutos reais (das 6h à meia-noite).",
+   "# Primeiro dia, passo a passo",
+   "- 1. Você começa com enxada, regador, foice, machado, picareta, sementes, pão, madeira e pedra (barra rápida, teclas 1 a 0).",
+   "- 2. Selecione a enxada e use em grama para arar a terra. Depois selecione uma semente, plante e regue (o regador enche na torneira perto da casa).",
+   "- 3. As plantas crescem a cada novo dia, mas só se estiverem regadas. Quando maduras, colha com a foice.",
+   "- 4. Venda a colheita nas lojas da vila (a leste). Atenção: as lojas só abrem das 7h às 18h; fora disso o lojista está dormindo.",
+   "- 5. Com o dinheiro, melhore a fazenda: terrenos, construções, animais, ferramentas melhores e, mais tarde, um funcionário.",
+   "- 6. A partir das 19h você pode dormir na cama (dentro da casa) para começar um novo dia.",
+   "# Energia",
+   "Quase tudo gasta energia (barra no canto de cima). Se acabar você não consegue mais usar ferramentas: coma algo (selecione a comida e use) ou durma.",
+   "# Dia e noite",
+   "Dormir só é possível a partir das 19h. Se der meia-noite fora da cama você desmaia e acorda no dia seguinte com metade da energia.",
+   "# Salvar",
+   "O jogo salva sozinho ao dormir. Você também pode salvar com {salvar} ou pelo menu de pausa (Esc), que tem 3 slots. O estado do funcionário, do forno e dos relatórios também é salvo."
+  ]
+ },
+ {
+  "titulo": "Controles",
+  "linhas": [
+   "# Movimento e ação",
+   "- {cima} {esquerda} {baixo} {direita} (ou as setas): andar.",
+   "- {usar}: usar a ferramenta ou item selecionado no bloco à sua frente. Segurar repete a ação.",
+   "- Botão esquerdo do mouse: usar no bloco apontado (precisa estar perto). Botão direito: interagir.",
+   "- {interagir}: interagir (entrar em lojas e na casa, abrir quartinho, tanque, barraca, quadro, mina...).",
+   "- 1 a 9 e 0, ou roda do mouse: escolher o item da barra rápida.",
+   "# Menus",
+   "- {inventario}: inventário e habilidades. {mapa}: mapa e compra de terrenos. {construir}: modo construção.",
+   "- {trator}: montar / descer do trator. {salvar}: salvar. {ajuda}: ajuda rápida. Esc: pausa.",
+   "- F11 ou Alt+Enter: tela cheia. Ctrl + roda do mouse: zoom.",
+   "- {dev}: menu de desenvolvedor (dinheiro, itens, pular dia, teletransporte...). Serve para testar.",
+   "Todas as teclas podem ser trocadas em Pausa > Configurações."
+  ]
+ },
+ {
+  "titulo": "Ferramentas",
+  "linhas": [
+   "# As ferramentas",
+   "- Enxada: ara a grama e prepara a terra. Também desfaz terra arada com a picareta.",
+   "- Regador: rega a terra arada. Gasta água; encha na torneira (ou no lago, se ligar essa opção nas configurações).",
+   "- Foice: colhe plantas maduras.",
+   "- Machado: corta árvores e arbustos (madeira). Melhor machado corta mais rápido.",
+   "- Picareta: quebra pedras (pedra), desfaz terra arada e é a ferramenta da mina.",
+   "- Rede de pesca: jogue em água para pescar (precisa secar 90 minutos entre usos).",
+   "- Espada: usada nos combates da mina.",
+   "# Níveis",
+   "Todas (menos foice e rede) podem ser melhoradas na Ferraria: Madeira, Pedra, Ferro e Ouro. Cada nível gasta menos energia; picareta e machado quebram mais rápido; o regador guarda mais água; a espada dá mais dano.",
+   "# Energia por uso",
+   "Cada ferramenta gasta energia a cada uso, e o valor cai com os níveis melhores."
+  ]
+ },
+ {
+  "titulo": "Plantações",
+  "linhas": [
+   "# Passo a passo",
+   "- 1) Enxada na grama: vira terra arada.",
+   "- 2) Selecione uma semente e use na terra arada (só terrenos seus!).",
+   "- 3) Regue todo dia (água também vem da chuva). Planta seca não cresce.",
+   "- 4) Quando madura, use a foice. A colheita pode ter qualidade Prata ou Ouro (vale mais).",
+   "# Estações",
+   "Cada semente só cresce em certas estações (veja na descrição do item). Quando a estação muda, plantas fora de época murcham.",
+   "# Adubo",
+   "Use adubo na terra com planta: Adubo melhora a qualidade; Adubo Veloz acelera o crescimento. Só um adubo por bloco.",
+   "# Aspersores",
+   "Aspersores (Carpintaria) regam sozinhos os blocos em volta toda manhã. O Aspersor Forte alcança mais longe.",
+   "# Habilidade",
+   "Colher dá experiência em Agricultura (veja no inventário). Níveis maiores aumentam a chance de colheita melhor."
+  ]
+ },
+ {
+  "titulo": "Animais",
+  "linhas": [
+   "# Construções",
+   "Compre na Carpintaria: Galinheiro (galinhas e patos), Coelheira (coelhos) e Celeiro (vacas, cabras, ovelhas e porcos). Depois compre os bichos na loja de animais da vila.",
+   "# Cuidados",
+   "- Chegue perto da construção e aperte {interagir} para abrir a tela de cuidados.",
+   "- Eles precisam de comida nos cochos: feno e ração própria de cada animal. Sem comida não produzem.",
+   "- Produtos prontos (ovos, leite, lã...) aparecem com um balão. Colete na mesma tela.",
+   "- Fazer carinho aumenta a amizade, que melhora a qualidade dos produtos.",
+   "# Filhotes e peso",
+   "Filhotes nascem com o tempo, crescem e também produzem. Animais podem ser vendidos pelo valor atual.",
+   "# Ração e feno",
+   "O feno é vendido no Mercado. A ração é fabricada no Misturador de Ração (Carpintaria) com colheitas: por exemplo, galinha 2 trigo + 1 milho. O funcionário pode fabricar para você."
+  ]
+ },
+ {
+  "titulo": "Construção e terrenos",
+  "linhas": [
+   "# Modo construção ({construir})",
+   "- Escolha a estrutura na lista, gire com {girar}, mostre a grade com {grade} e clique para posicionar.",
+   "- Desfazer: Ctrl+Z. Refazer: Ctrl+Y. Também dá para guardar estruturas de volta ao inventário.",
+   "- Cercas, portões, caminhos, jardins, bancos, lampiões, espantalhos, vasos, aspersores e prédios são comprados na Carpintaria.",
+   "# Terrenos",
+   "Você só pode construir e plantar nos terrenos que são seus. Abra o mapa ({mapa}) para ver as placas À VENDA e comprar mais terreno (campo, pasto, lago, pomar, floresta, rochoso e o Vale).",
+   "# Materiais",
+   "Construções usam dinheiro e materiais (madeira, pedra). Corte árvores e quebre pedras para conseguir."
+  ]
+ },
+ {
+  "titulo": "Casa, cama e quartinho",
+  "linhas": [
+   "# A casa",
+   "Aperte {interagir} na porta para entrar. Dentro há cama, cozinha, lareira, uma mesa e outros móveis.",
+   "# Dormir",
+   "Chegue na cama e aperte {interagir}. Só dá depois das 19h. Dormir passa o dia: plantas crescem, animais produzem, o forno termina o que estava fazendo, o funcionário fecha o dia e a energia volta.",
+   "# A mesa e o relatório",
+   "Se você tem funcionário, toda manhã há um papel sobre a mesa: o relatório do dia anterior. Chegue perto da mesa e aperte {interagir} para ler (veja o capítulo Relatório diário).",
+   "# Quartinho de Bagunça",
+   "- Construção (Carpintaria) que guarda itens. Começa com 20 espaços e você pode comprar mais, até 80.",
+   "- Perto dele, {interagir} abre a tela: depositar, retirar, guardar tudo (menos a barra rápida) e ampliar.",
+   "- O funcionário usa o quartinho como inventário dele: tire de lá o que ele não deve usar e guarde lá o que ele deve usar.",
+   "# Torneira",
+   "Instale uma torneira (você começa com uma). Use o regador nela para encher."
+  ]
+ },
+ {
+  "titulo": "Cozinha",
+  "linhas": [
+   "# Cozinhar",
+   "Na casa, vá até a cozinha e aperte {interagir}. Escolha uma receita e a quantidade de lotes.",
+   "# Receitas",
+   "- Pão: 3 trigo (rende 2).",
+   "- Bolo: 2 ovos, 2 trigo, 1 leite. Omelete: 2 ovos, 1 cebola.",
+   "- Sopa: cenoura, batata e cebola. Salada: 2 alface, 1 tomate.",
+   "- Torta de abóbora: abóbora, 2 trigo, 1 ovo. Geleia: 3 morangos.",
+   "- Peixe assado: 1 peixe gordo (criado no tanque).",
+   "# Comer",
+   "Comida recupera energia. Selecione e use, ou clique em Comer no inventário."
+  ]
+ },
+ {
+  "titulo": "Vila e lojas",
+  "linhas": [
+   "# Onde fica",
+   "A vila fica a leste da fazenda, em volta da praça com a fonte. Aperte {interagir} perto da porta de cada loja.",
+   "# Horário e rotina dos lojistas",
+   "- As lojas abrem às 7h e fecham às 18h. Fechada, a porta mostra “Fechada” e você não consegue entrar.",
+   "- Às 18h o lojista sai da loja e vai a pé até a casinha dele (as casas ficam atrás das lojas e do outro lado da rua). Ele dorme lá à noite.",
+   "- De manhã ele volta andando e a loja reabre às 7h. Se o jogo começar às 6h, espere até as 7h para vender ou comprar.",
+   "- Dica: venda tudo antes das 18h. O banco e a ferraria também seguem esse horário.",
+   "# Lojas",
+   "- Sementes: sementes, adubos, mudas de árvore e estruturas de jardim. Compra sementes.",
+   "- Banco da Vila: guarda dinheiro e rende 1% ao dia (máximo $150 por dia).",
+   "- Animais: vende animais e compra produtos animais (ovos, leite, lã...).",
+   "- Ferraria do Aço: melhora ferramentas, funde barras e compra minérios.",
+   "- Mercado: vende feno, pão, suco e adubo. Compra colheitas, produtos, comida e materiais.",
+   "- Carpintaria: vende construções (inclusive o Forno de Fundição), madeira, pedra e a Chave do Trator. Compra materiais.",
+   "- Peixaria do Rio: compra peixes e vende a rede de pesca, alevinos e ração de peixe.",
+   "- Quadro de Empregos (na praça): contrata funcionário. Também dá para gerenciá-lo pelo menu de pausa.",
+   "# Dicas de venda",
+   "Itens de qualidade Prata e Ouro valem mais. Cada loja só compra certos tipos de item."
+  ]
+ },
+ {
+  "titulo": "Pesca e tanque de peixes",
+  "linhas": [
+   "# Pescar",
+   "Selecione a rede e use em um bloco de água (lago, rio ou mar). Cada água tem peixes diferentes (carpa, tilápia, bagre, truta, robalo). Às vezes vem nada! O nível de Pesca melhora a sorte.",
+   "# Tanque de peixes",
+   "- Construa o Tanque de Peixes (Carpintaria) e coloque alevinos (comprados na Peixaria).",
+   "- Alimente com ração de peixe todo dia. Cabem 8 peixes por tanque.",
+   "- Com o tempo os peixes engordam. Peixe gordo vale mais e serve para a receita de peixe assado."
+  ]
+ },
+ {
+  "titulo": "Economia, barraca e pomar",
+  "linhas": [
+   "# Barraca de vendas",
+   "Construa a Barraca (Carpintaria) e exponha até 6 produtos (colheitas, produtos animais, comida, peixes) com preço 30% acima do normal. Fregueses da vila compram durante o dia (menos com tempestade). O dinheiro fica no caixa da barraca: pegue com {interagir}.",
+   "# Pomar",
+   "Compre mudas de macieira, laranjeira e pessegueiro. Elas crescem por dias e depois dão frutas em certas estações. Colha com {interagir}. Mudas de árvore comum viram árvores que dão madeira.",
+   "# Banco",
+   "Deixe dinheiro parado no banco para render juros diários.",
+   "# Dinheiro",
+   "Você ganha vendendo colheitas, produtos animais, peixes, minérios e comida. Gasta em terrenos, construções, animais, melhorias e nos serviços do funcionário."
+  ]
+ },
+ {
+  "titulo": "Funcionário: contratar",
+  "linhas": [
+   "# O que é",
+   "Um ajudante que trabalha na fazenda enquanto você faz outras coisas. Não existe salário fixo: você paga apenas pelo que ele realmente termina. Não precisa de nível nem de experiência.",
+   "# Como contratar",
+   "- Vá ao Quadro de Empregos na praça da vila e aperte {interagir} (ou use “Funcionário” no menu de pausa).",
+   "- Marque as tarefas que você quer contratar. Cada linha mostra o preço por unidade e uma estimativa do que ele faria agora.",
+   "- Tarefas que dependem de construções ficam bloqueadas até você ter a construção: sem Forno não há fundição, sem galinheiro/celeiro/coelheira não há cuidado com animais nem ração, sem árvores frutíferas não há colheita de frutas.",
+   "- Embaixo você vê a taxa única de contratação ($200, paga só uma vez, separada dos serviços), o seu dinheiro e o custo estimado. Clique em Contratar e confirme.",
+   "# Depois de contratado",
+   "- Abra o quadro quando quiser para ligar/desligar tarefas. Isso não cancela o que ele já está fazendo e nunca cobra duas vezes.",
+   "- O quadro mostra quanto cada tarefa já custou hoje, o gasto total, o que está em andamento (forno aceso) e os últimos dias.",
+   "- Dispensar não devolve a taxa. Se ele estiver com o forno aceso, o lote passa a ser seu e nada é cobrado.",
+   "# Quando ele trabalha",
+   "Das 7h às 18h você o vê andando pela fazenda, uma tarefa de cada vez. Ao fim do dia ele termina o que ainda dava para fazer.",
+   "# O quartinho",
+   "Ele usa os itens do Quartinho de Bagunça: sementes, adubo, regador, minério, carvão e ingredientes de ração. Colheitas, barras e produtos também vão para lá (sem quartinho, ele usa o seu inventário)."
+  ]
+ },
+ {
+  "titulo": "Funcionário: pagamento",
+  "linhas": [
+   "# Como ele é pago",
+   "Preço por unidade concluída (os valores ficam em data/funcionario.json):",
+   "- Plantar $2 por semente plantada | Adubar $2 por planta | Regar $2 por planta | Colher $3 por planta.",
+   "- Frutas $3 por árvore | Animais $2 por animal atendido | Ração $4 por lote | Forno $8 por barra produzida.",
+   "# O que ele NUNCA cobra",
+   "- Tempo parado, dia que passou, tarefa que não estava contratada ou foi desligada, serviço que falhou ou que já estava feito.",
+   "- Fundição que não produziu barra: só as barras realmente retiradas do forno são pagas.",
+   "# Se faltar dinheiro",
+   "- Antes de começar um serviço ele confere se você consegue pagar. Se não, não faz, não fica devendo e tenta as outras tarefas.",
+   "- Na fundição, o valor das barras fica reservado assim que o forno é aceso. Ele só funde o que você consegue pagar e o seu dinheiro nunca fica negativo.",
+   "# Se faltar material ou espaço",
+   "- Sem sementes, adubo, regador, minério ou carvão no quartinho: a tarefa não é feita e aparece nos problemas do relatório.",
+   "- Quartinho cheio: as barras prontas ficam no forno até haver espaço; ele não tenta de novo sem parar."
+  ]
+ },
+ {
+  "titulo": "Forno de fundição",
+  "linhas": [
+   "# O que é",
+   "Uma construção da Carpintaria ($600, 30 pedras, 10 madeiras) que transforma minério e carvão em barras, com o passar do tempo do jogo.",
+   "# Receitas (data/ferreiro.json)",
+   "- Barra de cobre: 2 minérios de cobre + 1 carvão, 30 minutos por lote.",
+   "- Barra de ferro: 2 minérios de ferro + 1 carvão, 40 minutos por lote.",
+   "- Barra de ouro: 2 minérios de ouro + 2 carvões, 60 minutos por lote.",
+   "# Usando você mesmo",
+   "- Perto do forno aperte {interagir}. A tela mostra o estado (Desligado, Funcionando ou Pronto), quanto você tem de cada ingrediente e quantos lotes dá para fazer (até 4 por vez).",
+   "- Clique em “1 lote” ou “Máximo”. Os ingredientes saem do seu inventário uma vez só. Enquanto funciona o forno solta fogo e mostra uma barrinha de progresso.",
+   "- Quando ficar Pronto (bolinha verde), abra e clique em Retirar barras. Se o inventário estiver cheio, as barras ficam no forno até você ter espaço.",
+   "- O forno continua funcionando mesmo se você sair, ir à mina ou dormir. Só dá para guardar o forno vazio.",
+   "# O ajudante operando",
+   "Com a tarefa “Operar o forno” contratada, ele pega minério e carvão do quartinho, acende o forno, faz outras tarefas enquanto espera, depois recolhe as barras e guarda no quartinho. Ele só usa o forno quando está livre, e a receita é escolhida pelo que há no quartinho (ferro, depois cobre, depois ouro).",
+   "# Dica",
+   "Deixe carvão e minérios no quartinho antes de dormir: de manhã as barras estão prontas."
+  ]
+ },
+ {
+  "titulo": "Relatório diário",
+  "linhas": [
+   "# O que é",
+   "Toda vez que um dia termina, o ajudante deixa um relatório em papel sobre a mesa da casa (o papel aparece desenhado na mesa). Há um relatório por dia e os últimos 14 ficam guardados.",
+   "# Como ler",
+   "Entre em casa, chegue perto da mesa e aperte {interagir}. Também dá para abrir pelo quadro (“Ver relatórios”). Clique em um dia da lista para ver os detalhes.",
+   "# O que ele mostra",
+   "- Data e nome do ajudante.",
+   "- Cada tarefa feita: quantas unidades, o preço de cada uma e o total pago.",
+   "- Materiais consumidos (sementes, adubo, minério, carvão...), minérios fundidos e a produção (colheitas, barras, ração).",
+   "- Total pago no dia.",
+   "- Problemas e tarefas que falharam, com o motivo: sem dinheiro, sem sementes, sem regador, quartinho cheio, forno ocupado...",
+   "# Verdade garantida",
+   "Tudo no relatório vem de coisas que realmente aconteceram durante o dia. Nada é inventado e nenhuma tarefa aparece sem ter sido feita."
+  ]
+ },
+ {
+  "titulo": "Trator",
+  "linhas": [
+   "# Como usar",
+   "Compre a Chave do Trator na Carpintaria. Aperte {trator} para montar ou descer.",
+   "# Vantagens",
+   "- Anda mais rápido.",
+   "- Enxada, regador e foice atingem 3 blocos de largura gastando a energia de um só.",
+   "- Tem uma carreta atrás que enche com as colheitas.",
+   "Entrar em casa desce do trator automaticamente."
+  ]
+ },
+ {
+  "titulo": "Mina",
+  "linhas": [
+   "# Entrada",
+   "A entrada fica na montanha ao norte da fazenda. Aperte {interagir} perto da porta.",
+   "# Dentro da mina",
+   "- Cada andar é uma sala com pedras e minérios. Selecione a picareta e bata nos blocos com {usar} ou o mouse.",
+   "- Uma das pedras esconde a escada para o andar de baixo. Perto dela, aperte {interagir} para descer.",
+   "- A escada de madeira no canto esquerdo sobe de andar (no andar 1, sai da mina).",
+   "- Os andares mudam todos os dias. A cada 5 andares alcançados, o elevador na entrada deixa começar direto neles.",
+   "# Minérios",
+   "- Carvão e cobre: qualquer picareta.",
+   "- Ferro: a partir do andar 5, com picareta de Pedra ou melhor.",
+   "- Ouro: a partir do andar 12, picareta de Ferro.",
+   "- Diamante: a partir do andar 20, picareta de Ferro.",
+   "# Perigos",
+   "Slimes e morcegos perseguem você. Compre a Espada na Ferraria, selecione e ataque com {usar} (ou clique). Sua vida (100) aparece no canto; ela volta aos poucos se ninguém te acertar. Se zerar você desmaia, perde até 10% do dinheiro e sai da mina. Eles soltam Gosma e Asa de Morcego, que a Ferraria compra.",
+   "# Para que serve o minério",
+   "Minérios e carvão viram barras no Forno de Fundição (ou na Ferraria). As barras melhoram ferramentas. Leve carvão suficiente: o ouro gasta 2 carvões por lote.",
+   "# Tempo",
+   "O relógio continua correndo lá dentro. Se chegar à meia-noite você desmaia."
+  ]
+ },
+ {
+  "titulo": "Ferraria",
+  "linhas": [
+   "# Melhorar ferramentas",
+   "Na Ferraria do Aço, a aba Melhorar mostra o custo de cada nível. Picareta, machado, enxada, regador e espada: Madeira > Pedra ($300, 15 pedras, 10 madeiras) > Ferro (barras de ferro) > Ouro (barras de ouro).",
+   "# Fundir na ferraria",
+   "A aba Fundir transforma minério e carvão em barras na hora: cobre (2 minérios + 1 carvão), ferro (2 + 1) e ouro (2 minérios + 2 carvões). Dá para comprar carvão ali mesmo.",
+   "# Ou use o seu Forno",
+   "Com o Forno de Fundição na sua fazenda (veja o capítulo Forno de fundição) você produz as mesmas barras com o tempo do jogo, sem ir à vila, e ainda pode deixar o ajudante fazer isso por você.",
+   "# Vender",
+   "A aba Vender compra minérios, barras, gemas, carvão e os itens dos monstros."
+  ]
+ },
+ {
+  "titulo": "Dicas e habilidades",
+  "linhas": [
+   "# Habilidades",
+   "Agricultura, Pecuária, Mineração, Pesca e Coleta sobem com o uso. Veja no inventário ({inventario}). Níveis maiores melhoram qualidade e chances.",
+   "# Dicas",
+   "- Plante tudo antes de dormir e regue; use aspersores para economizar energia.",
+   "- Contrate o funcionário cedo e deixe sementes, regador e ingredientes no quartinho.",
+   "- Guarde dinheiro no banco para render.",
+   "- Compre a Espada antes de descer fundo na mina e leve comida.",
+   "- Melhore a picareta para abrir minérios melhores e gastar menos energia.",
+   "# Problemas",
+   "- Menu de desenvolvedor ({dev}) ajuda a testar: dinheiro, itens, pular dias, mudar estação e clima.",
+   "- O jogo salva ao dormir; salve também antes de sair."
+  ]
+ }
+]

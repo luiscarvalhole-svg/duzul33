@@ -1,0 +1,673 @@
+{
+ "enxada": {
+  "nome": "Enxada",
+  "kind": "tool",
+  "tool": "enxada",
+  "energia": 2,
+  "stack": 1,
+  "desc": "Ara a grama e prepara a terra."
+ },
+ "regador": {
+  "nome": "Regador",
+  "kind": "tool",
+  "tool": "regador",
+  "energia": 1,
+  "stack": 1,
+  "desc": "Rega a terra. Enche na água."
+ },
+ "foice": {
+  "nome": "Foice",
+  "kind": "tool",
+  "tool": "foice",
+  "energia": 1,
+  "stack": 1,
+  "desc": "Colhe plantas maduras."
+ },
+ "machado": {
+  "nome": "Machado",
+  "kind": "tool",
+  "tool": "machado",
+  "energia": 3,
+  "stack": 1,
+  "desc": "Corta árvores e arbustos."
+ },
+ "picareta": {
+  "nome": "Picareta",
+  "kind": "tool",
+  "tool": "picareta",
+  "energia": 3,
+  "stack": 1,
+  "desc": "Quebra pedras e desfaz terra arada."
+ },
+ "madeira": {
+  "nome": "Madeira",
+  "kind": "material",
+  "venda": 4,
+  "compra": 8,
+  "cor": [
+   150,
+   104,
+   60
+  ],
+  "desc": "Material de construção."
+ },
+ "pedra": {
+  "nome": "Pedra",
+  "kind": "material",
+  "venda": 3,
+  "compra": 6,
+  "cor": [
+   150,
+   150,
+   158
+  ],
+  "desc": "Material de construção."
+ },
+ "fibra": {
+  "nome": "Fibra",
+  "kind": "material",
+  "venda": 2,
+  "cor": [
+   120,
+   170,
+   80
+  ],
+  "desc": "Fibras de arbusto."
+ },
+ "feno": {
+  "nome": "Feno",
+  "kind": "material",
+  "venda": 5,
+  "compra": 10,
+  "cor": [
+   222,
+   192,
+   92
+  ],
+  "desc": "Alimento dos animais. Entregue nas construções."
+ },
+ "adubo": {
+  "nome": "Adubo",
+  "kind": "fertilizer",
+  "fert": "adubo",
+  "venda": 10,
+  "compra": 25,
+  "cor": [
+   110,
+   80,
+   50
+  ],
+  "desc": "Melhora a qualidade da colheita."
+ },
+ "adubo_rapido": {
+  "nome": "Adubo Veloz",
+  "kind": "fertilizer",
+  "fert": "rapido",
+  "venda": 20,
+  "compra": 50,
+  "cor": [
+   90,
+   160,
+   200
+  ],
+  "desc": "A planta cresce 25% mais rápido."
+ },
+ "pao": {
+  "nome": "Pão",
+  "kind": "food",
+  "energia": 30,
+  "venda": 20,
+  "compra": 40,
+  "cor": [
+   210,
+   160,
+   90
+  ],
+  "desc": "Recupera 30 de energia."
+ },
+ "suco": {
+  "nome": "Suco de Frutas",
+  "kind": "food",
+  "energia": 55,
+  "venda": 45,
+  "compra": 90,
+  "cor": [
+   230,
+   120,
+   60
+  ],
+  "desc": "Recupera 55 de energia."
+ },
+ "ovo": {
+  "nome": "Ovo",
+  "kind": "product",
+  "venda": 35,
+  "cor": [
+   250,
+   240,
+   215
+  ],
+  "desc": "Das galinhas."
+ },
+ "ovo_pato": {
+  "nome": "Ovo de Pata",
+  "kind": "product",
+  "venda": 55,
+  "cor": [
+   200,
+   235,
+   225
+  ],
+  "desc": "Das patas."
+ },
+ "leite": {
+  "nome": "Leite",
+  "kind": "product",
+  "venda": 70,
+  "cor": [
+   225,
+   235,
+   255
+  ],
+  "desc": "Das vacas."
+ },
+ "leite_cabra": {
+  "nome": "Leite de Cabra",
+  "kind": "product",
+  "venda": 95,
+  "cor": [
+   240,
+   240,
+   225
+  ],
+  "desc": "Das cabras."
+ },
+ "la": {
+  "nome": "Lã",
+  "kind": "product",
+  "venda": 110,
+  "cor": [
+   245,
+   245,
+   240
+  ],
+  "desc": "Das ovelhas."
+ },
+ "pelo_coelho": {
+  "nome": "Pelo de Coelho",
+  "kind": "product",
+  "venda": 130,
+  "cor": [
+   220,
+   200,
+   190
+  ],
+  "desc": "Dos coelhos."
+ },
+ "trufa": {
+  "nome": "Trufa",
+  "kind": "product",
+  "venda": 180,
+  "cor": [
+   70,
+   50,
+   40
+  ],
+  "desc": "Dos porcos."
+ },
+ "racao_galinha": {
+  "nome": "Ração de Galinha",
+  "kind": "material",
+  "venda": 14,
+  "cor": [
+   240,
+   210,
+   120
+  ],
+  "racao": "galinha",
+  "desc": "Ração própria para galinha. Mais saúde, humor e amizade que o feno."
+ },
+ "racao_pato": {
+  "nome": "Ração de Pato",
+  "kind": "material",
+  "venda": 14,
+  "cor": [
+   120,
+   170,
+   120
+  ],
+  "racao": "pato",
+  "desc": "Ração própria para pato. Mais saúde, humor e amizade que o feno."
+ },
+ "racao_coelho": {
+  "nome": "Ração de Coelho",
+  "kind": "material",
+  "venda": 14,
+  "cor": [
+   230,
+   160,
+   90
+  ],
+  "racao": "coelho",
+  "desc": "Ração própria para coelho. Mais saúde, humor e amizade que o feno."
+ },
+ "racao_vaca": {
+  "nome": "Ração de Vaca",
+  "kind": "material",
+  "venda": 14,
+  "cor": [
+   200,
+   200,
+   210
+  ],
+  "racao": "vaca",
+  "desc": "Ração própria para vaca. Mais saúde, humor e amizade que o feno."
+ },
+ "racao_cabra": {
+  "nome": "Ração de Cabra",
+  "kind": "material",
+  "venda": 14,
+  "cor": [
+   190,
+   160,
+   120
+  ],
+  "racao": "cabra",
+  "desc": "Ração própria para cabra. Mais saúde, humor e amizade que o feno."
+ },
+ "racao_ovelha": {
+  "nome": "Ração de Ovelha",
+  "kind": "material",
+  "venda": 14,
+  "cor": [
+   225,
+   220,
+   200
+  ],
+  "racao": "ovelha",
+  "desc": "Ração própria para ovelha. Mais saúde, humor e amizade que o feno."
+ },
+ "racao_porco": {
+  "nome": "Ração de Porco",
+  "kind": "material",
+  "venda": 14,
+  "cor": [
+   230,
+   150,
+   160
+  ],
+  "racao": "porco",
+  "desc": "Ração própria para porco. Mais saúde, humor e amizade que o feno."
+ },
+ "rede": {
+  "nome": "Rede de Pesca",
+  "kind": "tool",
+  "tool": "rede",
+  "energia": 2,
+  "stack": 1,
+  "compra": 200,
+  "venda": 80,
+  "desc": "Jogue na água (lago, rio ou mar). Depois de usar, precisa secar por um tempo."
+ },
+ "alevino": {
+  "nome": "Alevinos",
+  "kind": "material",
+  "compra": 25,
+  "venda": 10,
+  "cor": [
+   130,
+   190,
+   230
+  ],
+  "stack": 99,
+  "desc": "Peixinhos para o tanque da piscicultura."
+ },
+ "racao_peixe": {
+  "nome": "Ração de Peixe",
+  "kind": "material",
+  "compra": 6,
+  "venda": 2,
+  "cor": [
+   190,
+   160,
+   110
+  ],
+  "stack": 99,
+  "desc": "Cada peixe do tanque come 1 por dia e engorda."
+ },
+ "peixe_carpa": {
+  "nome": "Carpa",
+  "kind": "fish",
+  "venda": 45,
+  "cor": [
+   220,
+   170,
+   80
+  ],
+  "stack": 99,
+  "desc": "Pescada com a rede."
+ },
+ "peixe_tilapia": {
+  "nome": "Tilápia",
+  "kind": "fish",
+  "venda": 60,
+  "cor": [
+   170,
+   190,
+   200
+  ],
+  "stack": 99,
+  "desc": "Pescada com a rede."
+ },
+ "peixe_bagre": {
+  "nome": "Bagre",
+  "kind": "fish",
+  "venda": 80,
+  "cor": [
+   110,
+   110,
+   130
+  ],
+  "stack": 99,
+  "desc": "Pescado com a rede."
+ },
+ "peixe_truta": {
+  "nome": "Truta",
+  "kind": "fish",
+  "venda": 110,
+  "cor": [
+   220,
+   130,
+   150
+  ],
+  "stack": 99,
+  "desc": "Gosta de água corrente (rio)."
+ },
+ "peixe_robalo": {
+  "nome": "Robalo",
+  "kind": "fish",
+  "venda": 140,
+  "cor": [
+   150,
+   170,
+   120
+  ],
+  "stack": 99,
+  "desc": "Peixe do mar."
+ },
+ "peixe_gordo": {
+  "nome": "Peixe Gordo",
+  "kind": "fish",
+  "venda": 120,
+  "cor": [
+   240,
+   150,
+   80
+  ],
+  "stack": 99,
+  "desc": "Criado na piscicultura. Venda na Peixaria."
+ },
+ "bolo": {
+  "nome": "Bolo",
+  "kind": "food",
+  "energia": 80,
+  "venda": 130,
+  "cor": [
+   240,
+   190,
+   200
+  ],
+  "desc": "Recupera 80 de energia. Delicioso!"
+ },
+ "omelete": {
+  "nome": "Omelete",
+  "kind": "food",
+  "energia": 40,
+  "venda": 70,
+  "cor": [
+   250,
+   220,
+   110
+  ],
+  "desc": "Recupera 40 de energia."
+ },
+ "sopa": {
+  "nome": "Sopa de Legumes",
+  "kind": "food",
+  "energia": 50,
+  "venda": 85,
+  "cor": [
+   230,
+   150,
+   80
+  ],
+  "desc": "Recupera 50 de energia."
+ },
+ "salada": {
+  "nome": "Salada",
+  "kind": "food",
+  "energia": 35,
+  "venda": 60,
+  "cor": [
+   110,
+   190,
+   90
+  ],
+  "desc": "Recupera 35 de energia."
+ },
+ "torta_abobora": {
+  "nome": "Torta de Abóbora",
+  "kind": "food",
+  "energia": 70,
+  "venda": 140,
+  "cor": [
+   230,
+   140,
+   50
+  ],
+  "desc": "Recupera 70 de energia."
+ },
+ "geleia": {
+  "nome": "Geleia de Morango",
+  "kind": "food",
+  "energia": 45,
+  "venda": 90,
+  "cor": [
+   200,
+   40,
+   70
+  ],
+  "desc": "Recupera 45 de energia."
+ },
+ "peixe_assado": {
+  "nome": "Peixe Assado",
+  "kind": "food",
+  "energia": 90,
+  "venda": 200,
+  "cor": [
+   210,
+   130,
+   70
+  ],
+  "desc": "Recupera 90 de energia."
+ },
+ "maca": {
+  "nome": "Maçã",
+  "kind": "product",
+  "venda": 55,
+  "cor": [
+   210,
+   50,
+   50
+  ],
+  "stack": 99,
+  "desc": "Fruta da macieira."
+ },
+ "laranja": {
+  "nome": "Laranja",
+  "kind": "product",
+  "venda": 50,
+  "cor": [
+   240,
+   150,
+   30
+  ],
+  "stack": 99,
+  "desc": "Fruta da laranjeira."
+ },
+ "pessego": {
+  "nome": "Pêssego",
+  "kind": "product",
+  "venda": 70,
+  "cor": [
+   250,
+   170,
+   130
+  ],
+  "stack": 99,
+  "desc": "Fruta do pessegueiro."
+ },
+ "chave_trator": {
+  "nome": "Chave do Trator",
+  "kind": "material",
+  "compra": 4000,
+  "venda": 1500,
+  "stack": 1,
+  "cor": [
+   210,
+   60,
+   50
+  ],
+  "desc": "Aperte T para montar no trator: mais rápido, e enxada, regador e foice atingem 3 blocos de largura."
+ },
+ "carvao": {
+  "nome": "Carvão",
+  "kind": "ore",
+  "venda": 12,
+  "compra": 25,
+  "cor": [
+   40,
+   40,
+   46
+  ],
+  "stack": 99,
+  "desc": "Combustível da fundição."
+ },
+ "minerio_cobre": {
+  "nome": "Minério de Cobre",
+  "kind": "ore",
+  "venda": 18,
+  "cor": [
+   200,
+   120,
+   70
+  ],
+  "stack": 99,
+  "desc": "Funda no Ferreiro para virar barra."
+ },
+ "minerio_ferro": {
+  "nome": "Minério de Ferro",
+  "kind": "ore",
+  "venda": 35,
+  "cor": [
+   170,
+   170,
+   185
+  ],
+  "stack": 99,
+  "desc": "Precisa de picareta de pedra ou melhor para minerar."
+ },
+ "minerio_ouro": {
+  "nome": "Minério de Ouro",
+  "kind": "ore",
+  "venda": 70,
+  "cor": [
+   240,
+   200,
+   60
+  ],
+  "stack": 99,
+  "desc": "Precisa de picareta de ferro ou melhor."
+ },
+ "diamante": {
+  "nome": "Diamante",
+  "kind": "gem",
+  "venda": 500,
+  "cor": [
+   150,
+   230,
+   250
+  ],
+  "stack": 99,
+  "desc": "Raríssimo! Vale uma fortuna."
+ },
+ "barra_cobre": {
+  "nome": "Barra de Cobre",
+  "kind": "bar",
+  "venda": 70,
+  "cor": [
+   210,
+   130,
+   80
+  ],
+  "stack": 99,
+  "desc": "Metal fundido."
+ },
+ "barra_ferro": {
+  "nome": "Barra de Ferro",
+  "kind": "bar",
+  "venda": 150,
+  "cor": [
+   190,
+   192,
+   205
+  ],
+  "stack": 99,
+  "desc": "Usada para melhorar ferramentas."
+ },
+ "barra_ouro": {
+  "nome": "Barra de Ouro",
+  "kind": "bar",
+  "venda": 320,
+  "cor": [
+   250,
+   210,
+   70
+  ],
+  "stack": 99,
+  "desc": "Usada para melhorar ferramentas ao nível máximo."
+ },
+ "espada": {
+  "nome": "Espada",
+  "kind": "tool",
+  "tool": "espada",
+  "energia": 2,
+  "stack": 1,
+  "compra": 150,
+  "desc": "Derrota inimigos da mina."
+ },
+ "gosma": {
+  "nome": "Gosma",
+  "kind": "loot",
+  "venda": 14,
+  "cor": [
+   110,
+   200,
+   90
+  ],
+  "stack": 99,
+  "desc": "Pingada de um slime."
+ },
+ "asa_morcego": {
+  "nome": "Asa de Morcego",
+  "kind": "loot",
+  "venda": 22,
+  "cor": [
+   70,
+   56,
+   90
+  ],
+  "stack": 99,
+  "desc": "Pode ser vendida na Ferraria."
+ }
+}

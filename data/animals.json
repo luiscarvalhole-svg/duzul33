@@ -1,0 +1,9 @@
+{
+ "galinha": {"nome":"Galinha","preco":400,"predio":"galinheiro","produto":"ovo","periodo":1,"req":{},"desc":"Põe um ovo por dia."},
+ "pato":    {"nome":"Pato","preco":600,"predio":"galinheiro","produto":"ovo_pato","periodo":2,"req":{},"desc":"Põe um ovo a cada 2 dias."},
+ "coelho":  {"nome":"Coelho","preco":800,"predio":"coelheira","produto":"pelo_coelho","periodo":3,"req":{"pecuaria":1},"desc":"Pelo a cada 3 dias."},
+ "vaca":    {"nome":"Vaca","preco":1500,"predio":"celeiro","produto":"leite","periodo":1,"req":{"pecuaria":1},"desc":"Leite todo dia."},
+ "cabra":   {"nome":"Cabra","preco":1000,"predio":"celeiro","produto":"leite_cabra","periodo":2,"req":{"pecuaria":1},"desc":"Leite a cada 2 dias."},
+ "ovelha":  {"nome":"Ovelha","preco":1200,"predio":"celeiro","produto":"la","periodo":3,"req":{"pecuaria":2},"desc":"Lã a cada 3 dias."},
+ "porco":   {"nome":"Porco","preco":2000,"predio":"celeiro","produto":"trufa","periodo":2,"req":{"pecuaria":2},"desc":"Encontra trufas."}
+}

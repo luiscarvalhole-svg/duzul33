@@ -1,0 +1,534 @@
+{
+ "sementes": {
+  "nome": "Loja de Sementes",
+  "dono": "Pedro",
+  "local": [
+   70,
+   29,
+   5,
+   4
+  ],
+  "telhado": [
+   80,
+   160,
+   90
+  ],
+  "parede": [
+   238,
+   228,
+   190
+  ],
+  "compra": [
+   "seed"
+  ],
+  "estoque": [
+   {
+    "auto": "seed",
+    "estoque": 30
+   },
+   {
+    "item": "adubo",
+    "estoque": 20
+   },
+   {
+    "item": "adubo_rapido",
+    "estoque": 10
+   },
+   {
+    "auto": "estruturas"
+   }
+  ],
+  "npc": {
+   "camisa": [
+    70,
+    140,
+    200
+   ],
+   "calca": [
+    60,
+    60,
+    90
+   ],
+   "cabelo": [
+    90,
+    60,
+    40
+   ],
+   "chapeu": [
+    200,
+    170,
+    80
+   ]
+  },
+  "casa": {
+   "rect": [
+    70,
+    25,
+    3,
+    3
+   ],
+   "porta": [
+    71.5,
+    28.4
+   ],
+   "rota": [
+    [
+     75.5,
+     33.6
+    ],
+    [
+     75.5,
+     28.5
+    ]
+   ]
+  }
+ },
+ "animais": {
+  "nome": "Fazenda Pé-de-Boi",
+  "dono": "Marina",
+  "local": [
+   82,
+   29,
+   5,
+   4
+  ],
+  "telhado": [
+   190,
+   70,
+   60
+  ],
+  "parede": [
+   240,
+   220,
+   190
+  ],
+  "tipo": "animais",
+  "compra": [
+   "product"
+  ],
+  "estoque": [],
+  "npc": {
+   "camisa": [
+    220,
+    120,
+    140
+   ],
+   "calca": [
+    70,
+    80,
+    130
+   ],
+   "cabelo": [
+    180,
+    90,
+    40
+   ]
+  },
+  "casa": {
+   "rect": [
+    82,
+    25,
+    3,
+    3
+   ],
+   "porta": [
+    83.5,
+    28.4
+   ],
+   "rota": [
+    [
+     87.5,
+     33.6
+    ],
+    [
+     87.5,
+     28.5
+    ]
+   ]
+  }
+ },
+ "mercado": {
+  "nome": "Mercado Geral",
+  "dono": "Tomás",
+  "local": [
+   72,
+   39,
+   5,
+   4
+  ],
+  "telhado": [
+   70,
+   110,
+   190
+  ],
+  "parede": [
+   236,
+   226,
+   200
+  ],
+  "compra": [
+   "crop",
+   "product",
+   "food",
+   "material",
+   "fertilizer"
+  ],
+  "estoque": [
+   {
+    "item": "feno"
+   },
+   {
+    "item": "pao",
+    "estoque": 15
+   },
+   {
+    "item": "suco",
+    "estoque": 10
+   },
+   {
+    "item": "adubo",
+    "estoque": 20
+   },
+   {
+    "item": "adubo_rapido",
+    "estoque": 10
+   }
+  ],
+  "npc": {
+   "camisa": [
+    240,
+    200,
+    90
+   ],
+   "calca": [
+    90,
+    70,
+    50
+   ],
+   "cabelo": [
+    50,
+    40,
+    40
+   ],
+   "chapeu": [
+    180,
+    70,
+    60
+   ]
+  },
+  "casa": {
+   "rect": [
+    72,
+    47,
+    3,
+    3
+   ],
+   "porta": [
+    73.5,
+    46.6
+   ],
+   "rota": [
+    [
+     75.6,
+     46.5
+    ]
+   ]
+  }
+ },
+ "carpintaria": {
+  "nome": "Carpintaria",
+  "dono": "Hélio",
+  "local": [
+   81,
+   39,
+   5,
+   4
+  ],
+  "telhado": [
+   140,
+   100,
+   60
+  ],
+  "parede": [
+   214,
+   184,
+   140
+  ],
+  "compra": [
+   "material",
+   "placeable"
+  ],
+  "estoque": [
+   {
+    "item": "madeira",
+    "preco": 8
+   },
+   {
+    "item": "pedra",
+    "preco": 6
+   },
+   {
+    "item": "chave_trator",
+    "estoque": 1
+   },
+   {
+    "auto": "estruturas"
+   }
+  ],
+  "npc": {
+   "camisa": [
+    170,
+    90,
+    60
+   ],
+   "calca": [
+    70,
+    70,
+    70
+   ],
+   "cabelo": [
+    120,
+    120,
+    120
+   ]
+  },
+  "casa": {
+   "rect": [
+    81,
+    47,
+    3,
+    3
+   ],
+   "porta": [
+    82.5,
+    46.6
+   ],
+   "rota": [
+    [
+     84.6,
+     46.5
+    ]
+   ]
+  }
+ },
+ "banco": {
+  "nome": "Banco da Vila",
+  "dono": "Dona Clara",
+  "local": [
+   76,
+   29,
+   5,
+   4
+  ],
+  "telhado": [
+   90,
+   100,
+   120
+  ],
+  "parede": [
+   226,
+   222,
+   214
+  ],
+  "tipo": "banco",
+  "compra": [],
+  "estoque": [],
+  "npc": {
+   "camisa": [
+    60,
+    70,
+    100
+   ],
+   "calca": [
+    40,
+    40,
+    50
+   ],
+   "cabelo": [
+    160,
+    160,
+    170
+   ],
+   "chapeu": [
+    50,
+    50,
+    60
+   ]
+  },
+  "casa": {
+   "rect": [
+    76,
+    25,
+    3,
+    3
+   ],
+   "porta": [
+    77.5,
+    28.4
+   ],
+   "rota": [
+    [
+     81.5,
+     33.6
+    ],
+    [
+     81.5,
+     28.5
+    ]
+   ]
+  }
+ },
+ "peixaria": {
+  "nome": "Peixaria do Rio",
+  "dono": "Nando",
+  "local": [
+   87,
+   39,
+   5,
+   4
+  ],
+  "telhado": [
+   60,
+   130,
+   170
+  ],
+  "parede": [
+   226,
+   236,
+   238
+  ],
+  "compra": [
+   "fish"
+  ],
+  "estoque": [
+   {
+    "item": "rede"
+   },
+   {
+    "item": "alevino",
+    "estoque": 40
+   },
+   {
+    "item": "racao_peixe",
+    "estoque": 80
+   }
+  ],
+  "npc": {
+   "camisa": [
+    240,
+    240,
+    230
+   ],
+   "calca": [
+    60,
+    90,
+    120
+   ],
+   "cabelo": [
+    150,
+    100,
+    60
+   ],
+   "chapeu": [
+    60,
+    110,
+    160
+   ]
+  },
+  "casa": {
+   "rect": [
+    87,
+    47,
+    3,
+    3
+   ],
+   "porta": [
+    88.5,
+    46.6
+   ],
+   "rota": [
+    [
+     90.6,
+     46.5
+    ]
+   ]
+  }
+ },
+ "ferreiro": {
+  "nome": "Ferraria do Aço",
+  "dono": "Ferreiro Ônix",
+  "local": [
+   88,
+   29,
+   5,
+   4
+  ],
+  "telhado": [
+   90,
+   80,
+   86
+  ],
+  "parede": [
+   214,
+   200,
+   186
+  ],
+  "tipo": "ferreiro",
+  "compra": [
+   "bar",
+   "gem",
+   "loot",
+   "ore"
+  ],
+  "estoque": [
+   {
+    "item": "carvao",
+    "preco": 25
+   }
+  ],
+  "npc": {
+   "camisa": [
+    110,
+    70,
+    50
+   ],
+   "calca": [
+    50,
+    50,
+    56
+   ],
+   "cabelo": [
+    40,
+    34,
+    30
+   ],
+   "chapeu": [
+    70,
+    70,
+    76
+   ]
+  },
+  "casa": {
+   "rect": [
+    88,
+    25,
+    3,
+    3
+   ],
+   "porta": [
+    89.5,
+    28.4
+   ],
+   "rota": [
+    [
+     87.5,
+     33.6
+    ],
+    [
+     87.5,
+     28.5
+    ]
+   ]
+  }
+ }
+}

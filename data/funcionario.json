@@ -1,0 +1,85 @@
+{
+ "cargo": "Ajudante da Fazenda",
+ "descricao": "Trabalha de dia (7h às 18h) só nas tarefas que você contratar. Você paga apenas pelo que ele realmente faz.",
+ "taxa_contratacao": 200,
+ "hora_inicio": 7,
+ "hora_fim": 18,
+ "historico_dias": 14,
+ "max_lotes_forno": 4,
+ "tarefas": {
+  "plantar": {
+   "nome": "Plantar sementes",
+   "preco": 2,
+   "unidade": "semente plantada",
+   "desc": "Planta as sementes do quartinho nos canteiros arados e vazios, só nas sementes da estação.",
+   "precisa": "terra arada e sementes"
+  },
+  "adubar": {
+   "nome": "Adubar plantações",
+   "preco": 2,
+   "unidade": "planta adubada",
+   "desc": "Usa adubo do quartinho nas plantas que ainda não foram adubadas.",
+   "precisa": "adubo no quartinho"
+  },
+  "regar": {
+   "nome": "Regar plantações",
+   "preco": 2,
+   "unidade": "planta regada",
+   "desc": "Rega as plantas secas. Precisa de um regador guardado no quartinho.",
+   "precisa": "regador no quartinho"
+  },
+  "colher": {
+   "nome": "Colher plantações",
+   "preco": 3,
+   "unidade": "planta colhida",
+   "desc": "Colhe o que está maduro e guarda no quartinho.",
+   "precisa": "espaço no quartinho"
+  },
+  "frutas": {
+   "nome": "Colher frutas das árvores",
+   "preco": 3,
+   "unidade": "árvore colhida",
+   "desc": "Colhe as frutas das macieiras, laranjeiras e pessegueiros.",
+   "estruturas": [
+    "macieira",
+    "laranjeira",
+    "pessegueiro"
+   ],
+   "motivo": "Precisa de árvore frutífera"
+  },
+  "animais": {
+   "nome": "Cuidar dos animais",
+   "preco": 2,
+   "unidade": "animal atendido",
+   "desc": "Põe feno e ração nos cochos e coleta ovos, leite e lã.",
+   "estruturas": [
+    "galinheiro",
+    "celeiro",
+    "coelheira"
+   ],
+   "motivo": "Precisa de galinheiro/celeiro/coelheira"
+  },
+  "racao": {
+   "nome": "Fabricar ração",
+   "preco": 4,
+   "unidade": "lote de ração",
+   "desc": "Fabrica ração com os ingredientes do quartinho para os animais que você tem.",
+   "estruturas": [
+    "galinheiro",
+    "celeiro",
+    "coelheira"
+   ],
+   "motivo": "Precisa de galinheiro/celeiro/coelheira"
+  },
+  "fundir": {
+   "nome": "Operar o forno de fundição",
+   "preco": 8,
+   "unidade": "barra produzida",
+   "desc": "Leva minério e carvão do quartinho ao forno, espera a fundição e guarda as barras no quartinho.",
+   "estruturas": [
+    "forno"
+   ],
+   "motivo": "Precisa de Forno de Fundição"
+  }
+ }
+}

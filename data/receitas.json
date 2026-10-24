@@ -1,0 +1,58 @@
+{
+ "bolo": {
+  "ingredientes": {
+   "ovo": 2,
+   "trigo": 2,
+   "leite": 1
+  },
+  "rende": 1
+ },
+ "omelete": {
+  "ingredientes": {
+   "ovo": 2,
+   "cebola": 1
+  },
+  "rende": 1
+ },
+ "sopa": {
+  "ingredientes": {
+   "cenoura": 1,
+   "batata": 1,
+   "cebola": 1
+  },
+  "rende": 1
+ },
+ "salada": {
+  "ingredientes": {
+   "alface": 2,
+   "tomate": 1
+  },
+  "rende": 1
+ },
+ "torta_abobora": {
+  "ingredientes": {
+   "abobora": 1,
+   "trigo": 2,
+   "ovo": 1
+  },
+  "rende": 1
+ },
+ "geleia": {
+  "ingredientes": {
+   "morango": 3
+  },
+  "rende": 1
+ },
+ "pao": {
+  "ingredientes": {
+   "trigo": 3
+  },
+  "rende": 2
+ },
+ "peixe_assado": {
+  "ingredientes": {
+   "peixe_gordo": 1
+  },
+  "rende": 1
+ }
+}

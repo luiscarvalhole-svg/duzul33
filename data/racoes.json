@@ -1,0 +1,51 @@
+{
+ "galinha": {
+  "ingredientes": {
+   "trigo": 2,
+   "milho": 1
+  },
+  "rende": 6
+ },
+ "pato": {
+  "ingredientes": {
+   "milho": 2,
+   "alface": 1
+  },
+  "rende": 6
+ },
+ "coelho": {
+  "ingredientes": {
+   "cenoura": 2,
+   "alface": 1
+  },
+  "rende": 6
+ },
+ "vaca": {
+  "ingredientes": {
+   "feno": 3,
+   "milho": 2
+  },
+  "rende": 5
+ },
+ "cabra": {
+  "ingredientes": {
+   "feno": 2,
+   "cenoura": 2
+  },
+  "rende": 5
+ },
+ "ovelha": {
+  "ingredientes": {
+   "feno": 3,
+   "trigo": 2
+  },
+  "rende": 5
+ },
+ "porco": {
+  "ingredientes": {
+   "batata": 2,
+   "abobora": 1
+  },
+  "rende": 5
+ }
+}
